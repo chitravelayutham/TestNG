@@ -1,0 +1,280 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8765620700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login to the WebdriverUniversity website with valid credentials",
+        "description": "",
+        "id": "login-to-the-webdriveruniversity-website;login-to-the-webdriveruniversity-website-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3579783000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the \"http://www.webdriveruniversity.com\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_the_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1279291900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Login portal",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_portal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3951114000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid username \"webdriver1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver1",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_valid_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2285917400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid password \"webdriver1231\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver1231",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_valid_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593152100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "An alert is displayed to the user with \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginSteps.an_alert_is_displayed_to_the_user_with(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the WebdriverUniversity website",
+    "description": "I want to use this template to validate the credentials of an existing user",
+    "id": "login-to-the-webdriveruniversity-website",
+    "keyword": "Feature",
+    "uri": "LoginInvalid.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11791410500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login to the WebdriverUniversity website with valid credentials",
+        "description": "",
+        "id": "login-to-the-webdriveruniversity-website;login-to-the-webdriveruniversity-website-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2810758900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the \"http://www.webdriveruniversity.com\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_the_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1082551300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Login portal",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_portal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2982045100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid username \"webdriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_valid_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901779000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid password \"webdriver123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_valid_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210878500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "An alert is displayed to the user with \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginSteps.an_alert_is_displayed_to_the_user_with(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the WebdriverUniversity website",
+    "description": "I want to use this template to validate the credentials of an existing user",
+    "id": "login-to-the-webdriveruniversity-website",
+    "keyword": "Feature",
+    "uri": "LoginValid.feature"
+  }
+]
